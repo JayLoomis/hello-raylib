@@ -15,20 +15,20 @@ Here's how to be able to repeat what I've done here to make other games with
 Raylib:
 
 1.  Build Raylib locally:
-    a.  The short answer is that I followed the instructions
+    -   The short answer is that I followed the instructions
         for working on macOS on the
         [Raylib wiki](https://github.com/raysan5/raylib/wiki/Working-on-macOS).    
         I am useing VSCode, and the wiki also has handy
         [instructions for that](https://github.com/raysan5/raylib/wiki/Using-raylib-in-VSCode).
         Read on for my own notes about the process.
-    b.  I tried using the prebuilt library by installing via Homebrew, but what
+    -   I tried using the prebuilt library by installing via Homebrew, but what
         you get from `brew` is very different from what you have when you clone
         the repo and build locally. The build your own from master solution is
         what the instructions (for VSCode, for example) assume. While I could
         figure out how to ake everything work with the ostensibly easier
         Homebrew install, it turns out it would be more work than building the
         libraries myself.
-    c.  Some of the names in the instructions are out of sync with reality.
+    -   Some of the names in the instructions are out of sync with reality.
         Don't sweat it! The goods build in `[repo-root]/src`.
 
 
